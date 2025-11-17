@@ -1,0 +1,42 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Contact — Shashank Agrawal</title><link rel="stylesheet" href="assets/style.css"></head><body>
+
+<header class="header">
+  <div class="container" style="display:flex;align-items:center">
+    <div class="brand">
+      <div class="logo">SA</div>
+      <div>
+        <div style="font-weight:800;font-size:18px">Shashank Agrawal</div>
+        <div style="font-size:12px;color:var(--muted)">SAP RAR & EBRR Consultant</div>
+      </div>
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="knowledge.html">Knowledge Hub</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <h2>Contact</h2>
+  <div class="card">
+    <p style="color:var(--muted)">Interested in a project, workshop or knowledge session? Send a message — replies usually within 48 hours.</p>
+    <form id="contact-form" action="https://formspree.io/f/xpzvvdkr" method="POST">
+      <input type="text" name="name" placeholder="Name" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="text" name="company" placeholder="Company (optional)">
+      <textarea name="message" placeholder="How can I help?" rows="6" required></textarea>
+      <div style="display:flex;gap:12px;">
+        <button class="btn" type="submit">Send Message</button>
+        <a class="btn-outline" href="assets/Shashank_Agrawal_CV.pdf" download>Download Resume (PDF)</a>
+      </div>
+    </form>
+    <p style="color:var(--muted);font-size:13px;margin-top:10px">Note: The contact form uses Formspree. For production, replace the action URL with your Formspree form endpoint or other email service provider.</p>
+  </div>
+</main>
+<footer class="footer">© 2025 Shashank Agrawal • All client/employer names omitted for confidentiality</footer>
+<script src="assets/app.js"></script>
+</body></html>
